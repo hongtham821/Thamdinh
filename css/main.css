@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+}
+
+.image-gallery {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-gallery img {
+    max-width: 75%;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      will-change: transform;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+
+}
+.image-gallery h2{
+    margin-bottom: 3rem;
+}
+
+  
+  
